@@ -1,3 +1,90 @@
+/* Configuración General Básica */
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6; /* Optimizado para lectura en pantalla */
+    color: #333333;
+    background-color: #faf9f6; /* Tono arena claro, descansa la vista */
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos de Títulos (Jerarquía Semántica) */
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    color: #2c3e2b; /* Verde pino orgánico */
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    color: #55433c; /* Tono tierra/madera */
+    margin-top: 30px;
+    border-bottom: 1px solid #e0dcd3;
+    padding-bottom: 5px;
+}
+
+/* Estilos de Párrafos y Lectura */
+p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/* Estilos de Enlaces */
+a {
+    color: #8f6d56;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #2c3e2b;
+    text-decoration: underline;
+}
+
+/* Componentes de Imágenes y Video */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+
+.contenedor-video {
+    position: relative;
+    padding-bottom: 56.25%; /* Relación de aspecto 16:9 */
+    height: 0;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+.contenedor-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+}
+
+/* Tipografía de atribuciones más pequeña */
+.atribucion {
+    font-size: 0.85rem;
+    color: #777;
+    margin-top: 5px;
+}
+
+footer {
+    margin-top: 50px;
+    font-size: 0.9rem;
+    text-align: center;
+    border-top: 1px solid #e0dcd3;
+    padding-top: 20px;
+}
 <!DOCTYPE html>
 <html lang="es">
 <head>
